@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
 import 'package:un_demo/core/models/job_model.dart';
+import 'package:un_demo/core/widgets/custom_toast.dart';
 import 'package:un_demo/features/home/data/home_repository.dart';
 
 class HomeController extends GetxController {
@@ -43,16 +42,5 @@ class HomeController extends GetxController {
           title: 'mostafa',
           image: 'https://www.unhcrjo.org/img/jobs/hr_manager.jfif');
     });
-  }
-
-  void showCustomToaster(String message, {bool isError = true}) {
-    Fluttertoast.showToast(
-        msg: message,
-        toastLength: Toast.LENGTH_SHORT,
-        gravity: ToastGravity.BOTTOM,
-        timeInSecForIosWeb: 1,
-        backgroundColor: Colors.red,
-        textColor: Colors.white,
-        fontSize: 14.0);
   }
 }
