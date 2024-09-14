@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:un_demo/core/utils/Strings.dart';
 import 'package:un_demo/features/home/presentation/view/home_view.dart';
 
 void main() {
@@ -13,12 +14,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: const Size(390, 844), // iPhone 15 Pro dimensions in pixels
+      designSize: const Size(390, 844), 
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) => const GetMaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
+        title: AppStrings.kAppTitle,
         home: HomeView(),
       ),
     );

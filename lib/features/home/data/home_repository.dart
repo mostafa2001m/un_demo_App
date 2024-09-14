@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:un_demo/core/api/dio_consumer.dart';
 import 'package:un_demo/core/api/end_points.dart';
-import 'package:un_demo/core/models/job_model.dart';
+import 'package:un_demo/features/home/data/models/job_model.dart';
 
 class HomeRepository {
   DioConsumer dio = DioConsumer(dio: Dio());

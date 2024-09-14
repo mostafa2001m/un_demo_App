@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:skeletonizer/skeletonizer.dart';
 import 'package:un_demo/core/utils/app_colors.dart';
-import 'package:un_demo/core/widgets/job_card.dart';
+import 'package:un_demo/core/components/job_card.dart';
 import 'package:un_demo/features/home/presentation/view%20model/home_controller.dart';
 import 'package:un_demo/features/home/presentation/widgets/home_header.dart';
-import 'package:un_demo/features/job_details/presentation/view/job_details_view.dart';
+import 'package:un_demo/features/job/details/presentation/view/job_details_view.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});

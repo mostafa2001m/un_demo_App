@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:un_demo/core/models/job_model.dart';
 import 'package:un_demo/core/utils/app_colors.dart';
 import 'package:un_demo/core/utils/custom_text_styles.dart';
+import 'package:un_demo/features/home/data/models/job_model.dart';
 
 Padding jobDetailsHeader(JobModel currentJob) {
   return Padding(

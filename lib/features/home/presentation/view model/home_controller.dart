@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:un_demo/core/models/job_model.dart';
-import 'package:un_demo/core/widgets/custom_toast.dart';
+import 'package:un_demo/core/components/custom_toast.dart';
 import 'package:un_demo/features/home/data/home_repository.dart';
+import 'package:un_demo/features/home/data/models/job_model.dart';
 
 class HomeController extends GetxController {
   HomeRepository homeRepository = HomeRepository();

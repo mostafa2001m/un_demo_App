@@ -1,4 +1,5 @@
 class AppStrings {
+  static const String kAppTitle = 'Un Demo';
   //home view
   static const String kUserName = 'Mostafa';
   static const String kSearchFieldHint = 'Search';
